@@ -10,7 +10,6 @@ function Cart() {
   const dispatch = useDispatch();
   const cart = useSelector(getCart);
   const username = useSelector(getUser);
-  console.log(cart);
 
   if (!cart.length) return <EmptyCart />;
 
